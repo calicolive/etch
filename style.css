@@ -1,6 +1,9 @@
 *{
     box-sizing:border-box;
 }
+body{
+    background-color: slategray;
+}
 
 .container{
     display: flex;
@@ -9,7 +12,7 @@
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    background-color: slategray;
+
 }
 .title{
     font-size:4rem;
@@ -20,6 +23,10 @@
 .board{
     display: grid;
     width: 500px;
-    height: 500px
+    height: 500px;
+    /* box-shadow: 4px 1px gray; */
 }
 
+.button-container{
+    display:flex;
+}
