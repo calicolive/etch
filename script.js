@@ -18,11 +18,11 @@ board.style.gridTemplateRows = `repeat(${size}, 1fr)`
 
 populateBoard(16);
 
+function changeSize(size){
 let buttonSmall = document.getElementById('btn-small');
 let buttonMedium = document.getElementById('btn-medium');
 let buttonLarge = document.getElementById('btn-large');
-let clear = document.getElementById('clear');
-
+let eraser = document.getElementById('eraser');
 
 
 buttonSmall.addEventListener('click', e =>{
@@ -40,3 +40,7 @@ buttonLarge.addEventListener('click', e =>{
 
     populateBoard(size);
 })
+
+}
+
+changeSize();
